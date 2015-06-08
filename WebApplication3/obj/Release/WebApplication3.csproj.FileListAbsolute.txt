@@ -1,0 +1,52 @@
+c:\users\mand6068\documents\visual studio 2013\Projects\WebApplication3\WebApplication3\bin\Microsoft.ApplicationInsights.Extensions.Intercept_x86.dll
+c:\users\mand6068\documents\visual studio 2013\Projects\WebApplication3\WebApplication3\bin\Microsoft.ApplicationInsights.Extensions.Intercept_x64.dll
+c:\users\mand6068\documents\visual studio 2013\Projects\WebApplication3\WebApplication3\bin\WebApplication3.dll.config
+c:\users\mand6068\documents\visual studio 2013\Projects\WebApplication3\WebApplication3\bin\WebApplication3.dll
+c:\users\mand6068\documents\visual studio 2013\Projects\WebApplication3\WebApplication3\bin\WebApplication3.pdb
+c:\users\mand6068\documents\visual studio 2013\Projects\WebApplication3\WebApplication3\bin\Microsoft.ApplicationInsights.dll
+c:\users\mand6068\documents\visual studio 2013\Projects\WebApplication3\WebApplication3\bin\Microsoft.ApplicationInsights.Extensibility.PerfCollector.dll
+c:\users\mand6068\documents\visual studio 2013\Projects\WebApplication3\WebApplication3\bin\Microsoft.ApplicationInsights.Extensibility.RuntimeTelemetry.dll
+c:\users\mand6068\documents\visual studio 2013\Projects\WebApplication3\WebApplication3\bin\Microsoft.ApplicationInsights.Extensibility.Web.dll
+c:\users\mand6068\documents\visual studio 2013\Projects\WebApplication3\WebApplication3\bin\Microsoft.ApplicationInsights.Web.TelemetryChannel.dll
+c:\users\mand6068\documents\visual studio 2013\Projects\WebApplication3\WebApplication3\bin\Microsoft.Diagnostics.Instrumentation.Extensions.Intercept.dll
+c:\users\mand6068\documents\visual studio 2013\Projects\WebApplication3\WebApplication3\bin\Microsoft.ApplicationInsights.xml
+c:\users\mand6068\documents\visual studio 2013\Projects\WebApplication3\WebApplication3\bin\Microsoft.ApplicationInsights.Extensibility.RuntimeTelemetry.xml
+c:\users\mand6068\documents\visual studio 2013\Projects\WebApplication3\WebApplication3\bin\Microsoft.ApplicationInsights.Extensibility.Web.xml
+c:\users\mand6068\documents\visual studio 2013\Projects\WebApplication3\WebApplication3\bin\Microsoft.ApplicationInsights.Web.TelemetryChannel.xml
+c:\users\mand6068\documents\visual studio 2013\Projects\WebApplication3\WebApplication3\obj\Release\WebApplication3.dll
+c:\users\mand6068\documents\visual studio 2013\Projects\WebApplication3\WebApplication3\obj\Release\WebApplication3.pdb
+c:\users\mand6068\documents\visual studio 2013\Projects\WebApplication3\WebApplication3\obj\Release\WebApplication3.csprojResolveAssemblyReference.cache
+c:\users\mand6068\documents\visual studio 2013\Projects\WebApplication3\WebApplication3\bin\Newtonsoft.Json.dll
+c:\users\mand6068\documents\visual studio 2013\Projects\WebApplication3\WebApplication3\bin\Newtonsoft.Json.pdb
+c:\users\mand6068\documents\visual studio 2013\Projects\WebApplication3\WebApplication3\bin\Newtonsoft.Json.xml
+c:\users\mand6068\documents\visual studio 2013\Projects\WebApplication3\WebApplication3\bin\Microsoft.Crm.Sdk.Proxy.dll
+c:\users\mand6068\documents\visual studio 2013\Projects\WebApplication3\WebApplication3\bin\Microsoft.Xrm.Client.dll
+c:\users\mand6068\documents\visual studio 2013\Projects\WebApplication3\WebApplication3\bin\Microsoft.Xrm.Sdk.dll
+c:\users\mand6068\documents\visual studio 2013\Projects\WebApplication3\WebApplication3\bin\Microsoft.Xrm.Sdk.Deployment.dll
+c:\users\mand6068\documents\visual studio 2013\Projects\WebApplication3\WebApplication3\bin\Microsoft.Crm.Sdk.Proxy.xml
+c:\users\mand6068\documents\visual studio 2013\Projects\WebApplication3\WebApplication3\bin\Microsoft.Xrm.Sdk.xml
+c:\users\mand6068\documents\visual studio 2013\Projects\WebApplication3\WebApplication3\bin\Microsoft.Xrm.Sdk.Deployment.xml
+C:\Users\mand6068\Dropbox\IMG\DataHug\VS Solution\WebApplication3\WebApplication3\bin\Microsoft.ApplicationInsights.Extensions.Intercept_x86.dll
+C:\Users\mand6068\Dropbox\IMG\DataHug\VS Solution\WebApplication3\WebApplication3\bin\Microsoft.ApplicationInsights.Extensions.Intercept_x64.dll
+C:\Users\mand6068\Dropbox\IMG\DataHug\VS Solution\WebApplication3\WebApplication3\bin\WebApplication3.dll.config
+C:\Users\mand6068\Dropbox\IMG\DataHug\VS Solution\WebApplication3\WebApplication3\bin\WebApplication3.dll
+C:\Users\mand6068\Dropbox\IMG\DataHug\VS Solution\WebApplication3\WebApplication3\bin\WebApplication3.pdb
+C:\Users\mand6068\Dropbox\IMG\DataHug\VS Solution\WebApplication3\WebApplication3\bin\Microsoft.ApplicationInsights.dll
+C:\Users\mand6068\Dropbox\IMG\DataHug\VS Solution\WebApplication3\WebApplication3\bin\Microsoft.ApplicationInsights.Extensibility.PerfCollector.dll
+C:\Users\mand6068\Dropbox\IMG\DataHug\VS Solution\WebApplication3\WebApplication3\bin\Microsoft.ApplicationInsights.Extensibility.RuntimeTelemetry.dll
+C:\Users\mand6068\Dropbox\IMG\DataHug\VS Solution\WebApplication3\WebApplication3\bin\Microsoft.ApplicationInsights.Extensibility.Web.dll
+C:\Users\mand6068\Dropbox\IMG\DataHug\VS Solution\WebApplication3\WebApplication3\bin\Microsoft.ApplicationInsights.Web.TelemetryChannel.dll
+C:\Users\mand6068\Dropbox\IMG\DataHug\VS Solution\WebApplication3\WebApplication3\bin\Microsoft.Diagnostics.Instrumentation.Extensions.Intercept.dll
+C:\Users\mand6068\Dropbox\IMG\DataHug\VS Solution\WebApplication3\WebApplication3\bin\Microsoft.Xrm.Sdk.Deployment.dll
+C:\Users\mand6068\Dropbox\IMG\DataHug\VS Solution\WebApplication3\WebApplication3\bin\Microsoft.ApplicationInsights.xml
+C:\Users\mand6068\Dropbox\IMG\DataHug\VS Solution\WebApplication3\WebApplication3\bin\Microsoft.ApplicationInsights.Extensibility.RuntimeTelemetry.xml
+C:\Users\mand6068\Dropbox\IMG\DataHug\VS Solution\WebApplication3\WebApplication3\bin\Microsoft.ApplicationInsights.Extensibility.Web.xml
+C:\Users\mand6068\Dropbox\IMG\DataHug\VS Solution\WebApplication3\WebApplication3\bin\Microsoft.ApplicationInsights.Web.TelemetryChannel.xml
+C:\Users\mand6068\Dropbox\IMG\DataHug\VS Solution\WebApplication3\WebApplication3\bin\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\mand6068\Dropbox\IMG\DataHug\VS Solution\WebApplication3\WebApplication3\bin\Microsoft.Xrm.Sdk.xml
+C:\Users\mand6068\Dropbox\IMG\DataHug\VS Solution\WebApplication3\WebApplication3\bin\Newtonsoft.Json.pdb
+C:\Users\mand6068\Dropbox\IMG\DataHug\VS Solution\WebApplication3\WebApplication3\bin\Newtonsoft.Json.xml
+C:\Users\mand6068\Dropbox\IMG\DataHug\VS Solution\WebApplication3\WebApplication3\bin\Microsoft.Xrm.Sdk.Deployment.xml
+C:\Users\mand6068\Dropbox\IMG\DataHug\VS Solution\WebApplication3\WebApplication3\obj\Release\WebApplication3.csprojResolveAssemblyReference.cache
+C:\Users\mand6068\Dropbox\IMG\DataHug\VS Solution\WebApplication3\WebApplication3\obj\Release\WebApplication3.dll
+C:\Users\mand6068\Dropbox\IMG\DataHug\VS Solution\WebApplication3\WebApplication3\obj\Release\WebApplication3.pdb

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="WebApplication37861" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\mand6068\\Dropbox\\IMG\\DataHug\\VS\ Solution\\WebApplication3\\WebApplication3\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\mand6068\\Dropbox\\IMG\\DataHug\\VS\ Solution\\WebApplication3\\WebApplication3\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="Server=CRM Online, organization=imgmay, user=Bal-Web.config Connection String" description="Server=CRM Online, organization=imgmay, user=Bal Connection String used in web.config by the application to access the database." value="Url=https://imgmay.crm4.dynamics.com; Username=al@imgmay.onmicrosoft.com; Password=Liverpool2015;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\mand6068\\Dropbox\\IMG\\DataHug\\VS\ Solution\\WebApplication3\\WebApplication3\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Server=CRM Online, organization=imgmay, user=Bal']/@connectionString" />
+  </parameter>
+</parameters>

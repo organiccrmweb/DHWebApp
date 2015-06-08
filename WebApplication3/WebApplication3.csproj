@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{760454B8-C1C0-46FD-98A4-BE48703B1594}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication3</RootNamespace>
+    <AssemblyName>WebApplication3</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <NuGetPackageImportStamp>de87ea58</NuGetPackageImportStamp>
+    <ApplicationInsightsResourceId>/subscriptions/dabdf4c3-c1c9-446a-86ab-d7bb118cd9ed/resourcegroups/Default-ApplicationInsights-CentralUS/providers/microsoft.insights/components/WebApplication3</ApplicationInsightsResourceId>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ApplicationInsights">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.0.17.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights.Extensibility.PerfCollector">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.0.17.0\lib\net45\Microsoft.ApplicationInsights.Extensibility.PerfCollector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights.Extensibility.RuntimeTelemetry">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.0.17.0\lib\net45\Microsoft.ApplicationInsights.Extensibility.RuntimeTelemetry.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights.Extensibility.Web">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.0.17.0\lib\net45\Microsoft.ApplicationInsights.Extensibility.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights.Web.TelemetryChannel">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.TelemetryChannel.0.17.0\lib\net45\Microsoft.ApplicationInsights.Web.TelemetryChannel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Crm.Sdk.Proxy">
+      <HintPath>..\..\..\..\CRMDK2015\SDK\Bin\Microsoft.Crm.Sdk.Proxy.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Diagnostics.Instrumentation.Extensions.Intercept">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.0.17.0\lib\net45\Microsoft.Diagnostics.Instrumentation.Extensions.Intercept.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xrm.Client">
+      <HintPath>..\..\..\..\CRMDK2015\SDK\Bin\Microsoft.Xrm.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xrm.Sdk">
+      <HintPath>..\..\..\..\CRMDK2015\SDK\Bin\Microsoft.Xrm.Sdk.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\..\..\Downloads\Json60r8\Bin\Net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="amcharts\amcharts.js" />
+    <Content Include="amcharts\funnel.js" />
+    <Content Include="amcharts\gantt.js" />
+    <Content Include="amcharts\gauge.js" />
+    <Content Include="amcharts\images\dragIcon.gif" />
+    <Content Include="amcharts\images\dragIconBlack.gif" />
+    <Content Include="amcharts\images\dragIconH.gif" />
+    <Content Include="amcharts\images\dragIconHBlack.gif" />
+    <Content Include="amcharts\images\dragIconRectBig.png" />
+    <Content Include="amcharts\images\dragIconRectBigBlack.png" />
+    <Content Include="amcharts\images\dragIconRectBigBlackH.png" />
+    <Content Include="amcharts\images\dragIconRectBigH.png" />
+    <Content Include="amcharts\images\dragIconRectSmall.png" />
+    <Content Include="amcharts\images\dragIconRectSmallBlack.png" />
+    <Content Include="amcharts\images\dragIconRectSmallBlackH.png" />
+    <Content Include="amcharts\images\dragIconRectSmallH.png" />
+    <Content Include="amcharts\images\dragIconRoundBig.png" />
+    <Content Include="amcharts\images\dragIconRoundBigBlack.png" />
+    <Content Include="amcharts\images\dragIconRoundBigBlackH.png" />
+    <Content Include="amcharts\images\dragIconRoundBigH.png" />
+    <Content Include="amcharts\images\dragIconRoundSmall.png" />
+    <Content Include="amcharts\images\dragIconRoundSmallBlack.png" />
+    <Content Include="amcharts\images\dragIconRoundSmallBlackH.png" />
+    <Content Include="amcharts\images\dragIconRoundSmallH.png" />
+    <Content Include="amcharts\images\export.png" />
+    <Content Include="amcharts\images\exportWhite.png" />
+    <Content Include="amcharts\images\lens.png" />
+    <Content Include="amcharts\images\lensWhite.png" />
+    <Content Include="amcharts\images\lensWhite_old.png" />
+    <Content Include="amcharts\images\lens_old.png" />
+    <Content Include="amcharts\lang\az.js" />
+    <Content Include="amcharts\lang\bg.js" />
+    <Content Include="amcharts\lang\de.js" />
+    <Content Include="amcharts\lang\es.js" />
+    <Content Include="amcharts\lang\fi.js" />
+    <Content Include="amcharts\lang\fo.js" />
+    <Content Include="amcharts\lang\fr.js" />
+    <Content Include="amcharts\lang\hr.js" />
+    <Content Include="amcharts\lang\hu.js" />
+    <Content Include="amcharts\lang\id.js" />
+    <Content Include="amcharts\lang\is.js" />
+    <Content Include="amcharts\lang\it.js" />
+    <Content Include="amcharts\lang\lt.js" />
+    <Content Include="amcharts\lang\lv.js" />
+    <Content Include="amcharts\lang\mk.js" />
+    <Content Include="amcharts\lang\mn.js" />
+    <Content Include="amcharts\lang\mt.js" />
+    <Content Include="amcharts\lang\nl.js" />
+    <Content Include="amcharts\lang\no.js" />
+    <Content Include="amcharts\lang\pl.js" />
+    <Content Include="amcharts\lang\pt.js" />
+    <Content Include="amcharts\lang\ro.js" />
+    <Content Include="amcharts\lang\ru.js" />
+    <Content Include="amcharts\lang\rw.js" />
+    <Content Include="amcharts\lang\sk.js" />
+    <Content Include="amcharts\lang\so.js" />
+    <Content Include="amcharts\lang\th.js" />
+    <Content Include="amcharts\lang\tr.js" />
+    <Content Include="amcharts\patterns\black\pattern1.png" />
+    <Content Include="amcharts\patterns\black\pattern10.png" />
+    <Content Include="amcharts\patterns\black\pattern11.png" />
+    <Content Include="amcharts\patterns\black\pattern12.png" />
+    <Content Include="amcharts\patterns\black\pattern13.png" />
+    <Content Include="amcharts\patterns\black\pattern14.png" />
+    <Content Include="amcharts\patterns\black\pattern15.png" />
+    <Content Include="amcharts\patterns\black\pattern16.png" />
+    <Content Include="amcharts\patterns\black\pattern17.png" />
+    <Content Include="amcharts\patterns\black\pattern18.png" />
+    <Content Include="amcharts\patterns\black\pattern19.png" />
+    <Content Include="amcharts\patterns\black\pattern2.png" />
+    <Content Include="amcharts\patterns\black\pattern20.png" />
+    <Content Include="amcharts\patterns\black\pattern21.png" />
+    <Content Include="amcharts\patterns\black\pattern3.png" />
+    <Content Include="amcharts\patterns\black\pattern4.png" />
+    <Content Include="amcharts\patterns\black\pattern5.png" />
+    <Content Include="amcharts\patterns\black\pattern6.png" />
+    <Content Include="amcharts\patterns\black\pattern7.png" />
+    <Content Include="amcharts\patterns\black\pattern8.png" />
+    <Content Include="amcharts\patterns\black\pattern9.png" />
+    <Content Include="amcharts\patterns\chalk\pattern1.jpg" />
+    <Content Include="amcharts\patterns\chalk\pattern1r.jpg" />
+    <Content Include="amcharts\patterns\chalk\pattern2.jpg" />
+    <Content Include="amcharts\patterns\chalk\pattern3.jpg" />
+    <Content Include="amcharts\patterns\chalk\pattern4.jpg" />
+    <Content Include="amcharts\patterns\chalk\pattern5.jpg" />
+    <Content Include="amcharts\patterns\chalk\pattern6.jpg" />
+    <Content Include="amcharts\patterns\white\pattern1.png" />
+    <Content Include="amcharts\patterns\white\pattern10.png" />
+    <Content Include="amcharts\patterns\white\pattern11.png" />
+    <Content Include="amcharts\patterns\white\pattern12.png" />
+    <Content Include="amcharts\patterns\white\pattern13.png" />
+    <Content Include="amcharts\patterns\white\pattern14.png" />
+    <Content Include="amcharts\patterns\white\pattern15.png" />
+    <Content Include="amcharts\patterns\white\pattern16.png" />
+    <Content Include="amcharts\patterns\white\pattern17.png" />
+    <Content Include="amcharts\patterns\white\pattern18.png" />
+    <Content Include="amcharts\patterns\white\pattern19.png" />
+    <Content Include="amcharts\patterns\white\pattern2.png" />
+    <Content Include="amcharts\patterns\white\pattern20.png" />
+    <Content Include="amcharts\patterns\white\pattern21.png" />
+    <Content Include="amcharts\patterns\white\pattern3.png" />
+    <Content Include="amcharts\patterns\white\pattern4.png" />
+    <Content Include="amcharts\patterns\white\pattern5.png" />
+    <Content Include="amcharts\patterns\white\pattern6.png" />
+    <Content Include="amcharts\patterns\white\pattern7.png" />
+    <Content Include="amcharts\patterns\white\pattern8.png" />
+    <Content Include="amcharts\patterns\white\pattern9.png" />
+    <Content Include="amcharts\pie.js" />
+    <Content Include="amcharts\plugins\dataloader\dataloader.js" />
+    <Content Include="amcharts\plugins\dataloader\dataloader.min.js" />
+    <Content Include="amcharts\plugins\dataloader\examples\map_json.html" />
+    <Content Include="amcharts\plugins\dataloader\examples\pie_csv.html" />
+    <Content Include="amcharts\plugins\dataloader\examples\pie_json.html" />
+    <Content Include="amcharts\plugins\dataloader\examples\serial2_json.html" />
+    <Content Include="amcharts\plugins\dataloader\examples\serial_csv.html" />
+    <Content Include="amcharts\plugins\dataloader\examples\serial_json.html" />
+    <Content Include="amcharts\plugins\dataloader\examples\stock_csv_data_and_events.html" />
+    <Content Include="amcharts\plugins\dataloader\lang\en.js" />
+    <Content Include="amcharts\plugins\dataloader\lang\lt.js" />
+    <Content Include="amcharts\plugins\dataloader\license.txt" />
+    <Content Include="amcharts\plugins\export\examples\export.config.advanced.js" />
+    <Content Include="amcharts\plugins\export\examples\export.config.default.js" />
+    <Content Include="amcharts\plugins\export\examples\funnel.html" />
+    <Content Include="amcharts\plugins\export\examples\gantt.html" />
+    <Content Include="amcharts\plugins\export\examples\gauge.html" />
+    <Content Include="amcharts\plugins\export\examples\images\bicycle.png" />
+    <Content Include="amcharts\plugins\export\examples\images\car.png" />
+    <Content Include="amcharts\plugins\export\examples\images\motorcycle.png" />
+    <Content Include="amcharts\plugins\export\examples\index.html" />
+    <Content Include="amcharts\plugins\export\examples\map.html" />
+    <Content Include="amcharts\plugins\export\examples\pie1.html" />
+    <Content Include="amcharts\plugins\export\examples\pie2.html" />
+    <Content Include="amcharts\plugins\export\examples\pie3.html" />
+    <Content Include="amcharts\plugins\export\examples\pie4.html" />
+    <Content Include="amcharts\plugins\export\examples\radar.html" />
+    <Content Include="amcharts\plugins\export\examples\serial1.html" />
+    <Content Include="amcharts\plugins\export\examples\serial2.html" />
+    <Content Include="amcharts\plugins\export\examples\serial3.html" />
+    <Content Include="amcharts\plugins\export\examples\stock.html" />
+    <Content Include="amcharts\plugins\export\examples\xy.html" />
+    <Content Include="amcharts\plugins\export\export.css" />
+    <Content Include="amcharts\plugins\export\export.js" />
+    <Content Include="amcharts\plugins\export\export.min.js" />
+    <Content Include="amcharts\plugins\export\libs\blob.js\blob.js" />
+    <Content Include="amcharts\plugins\export\libs\fabric.js\fabric.js" />
+    <Content Include="amcharts\plugins\export\libs\fabric.js\fabric.min.js" />
+    <Content Include="amcharts\plugins\export\libs\FileSaver.js\FileSaver.js" />
+    <Content Include="amcharts\plugins\export\libs\FileSaver.js\FileSaver.min.js" />
+    <Content Include="amcharts\plugins\export\libs\jszip\jszip.js" />
+    <Content Include="amcharts\plugins\export\libs\jszip\jszip.min.js" />
+    <Content Include="amcharts\plugins\export\libs\pdfmake\pdfmake.js" />
+    <Content Include="amcharts\plugins\export\libs\pdfmake\pdfmake.min.js" />
+    <Content Include="amcharts\plugins\export\libs\pdfmake\vfs_fonts.js" />
+    <Content Include="amcharts\plugins\export\libs\xlsx\xlsx.js" />
+    <Content Include="amcharts\plugins\export\libs\xlsx\xlsx.min.js" />
+    <Content Include="amcharts\plugins\responsive\examples\funnel.html" />
+    <Content Include="amcharts\plugins\responsive\examples\gantt.html" />
+    <Content Include="amcharts\plugins\responsive\examples\gauge.html" />
+    <Content Include="amcharts\plugins\responsive\examples\images\bicycle.png" />
+    <Content Include="amcharts\plugins\responsive\examples\images\car.png" />
+    <Content Include="amcharts\plugins\responsive\examples\images\motorcycle.png" />
+    <Content Include="amcharts\plugins\responsive\examples\index.html" />
+    <Content Include="amcharts\plugins\responsive\examples\map.html" />
+    <Content Include="amcharts\plugins\responsive\examples\pie1.html" />
+    <Content Include="amcharts\plugins\responsive\examples\pie2.html" />
+    <Content Include="amcharts\plugins\responsive\examples\pie3.html" />
+    <Content Include="amcharts\plugins\responsive\examples\radar.html" />
+    <Content Include="amcharts\plugins\responsive\examples\serial1.html" />
+    <Content Include="amcharts\plugins\responsive\examples\serial2.html" />
+    <Content Include="amcharts\plugins\responsive\examples\serial3.html" />
+    <Content Include="amcharts\plugins\responsive\examples\stock.html" />
+    <Content Include="amcharts\plugins\responsive\examples\xy.html" />
+    <Content Include="amcharts\plugins\responsive\license.txt" />
+    <Content Include="amcharts\plugins\responsive\responsive.js" />
+    <Content Include="amcharts\plugins\responsive\responsive.min.js" />
+    <Content Include="amcharts\radar.js" />
+    <Content Include="amcharts\serial.js" />
+    <Content Include="amcharts\themes\black.js" />
+    <Content Include="amcharts\themes\chalk.js" />
+    <Content Include="amcharts\themes\dark.js" />
+    <Content Include="amcharts\themes\light.js" />
+    <Content Include="amcharts\themes\patterns.js" />
+    <Content Include="amcharts\xy.js" />
+    <Content Include="Contact.aspx" />
+    <Content Include="packages.config" />
+    <Content Include="ApplicationInsights.config" />
+    <Content Include="amcharts\plugins\dataloader\examples\data\map.json" />
+    <Content Include="amcharts\plugins\dataloader\examples\data\MSFT.csv" />
+    <Content Include="amcharts\plugins\dataloader\examples\data\MSFT_events.csv" />
+    <Content Include="amcharts\plugins\dataloader\examples\data\pie.csv" />
+    <Content Include="amcharts\plugins\dataloader\examples\data\pie.json" />
+    <Content Include="amcharts\plugins\dataloader\examples\data\serial.csv" />
+    <Content Include="amcharts\plugins\dataloader\examples\data\serial.json" />
+    <Content Include="amcharts\plugins\dataloader\examples\data\serial2.json" />
+    <Content Include="amcharts\plugins\dataloader\examples\data\TXN.csv" />
+    <Content Include="amcharts\plugins\dataloader\readme.md" />
+    <Content Include="amcharts\plugins\export\libs\fabric.js\.travis.yml" />
+    <Content Include="amcharts\plugins\export\libs\pdfmake\pdfmake.min.js.map" />
+    <Content Include="amcharts\plugins\export\libs\pdfmake\pdfmake.min.map" />
+    <Content Include="amcharts\plugins\export\libs\xlsx\LICENSE" />
+    <Content Include="amcharts\plugins\export\libs\xlsx\xlsx.min.map" />
+    <Content Include="amcharts\plugins\export\LICENSE" />
+    <Content Include="amcharts\plugins\export\README.md" />
+    <Content Include="amcharts\plugins\responsive\readme.md" />
+    <Content Include="amcharts\plugins\responsive\responsive.min.js.map" />
+    <Content Include="WebForm2.aspx" />
+    <None Include="Properties\PublishProfiles\WebApplication37861.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Login.aspx" />
+    <Content Include="scripts\ai.0.15.0-build12287.js" />
+    <Content Include="scripts\ai.0.15.0-build12287.min.js" />
+    <Content Include="scripts\jquery-1.7.1.min.js" />
+    <Content Include="TabTest.html" />
+    <Content Include="TempImages\temp.txt" />
+    <Content Include="Web.config" />
+    <Content Include="Company.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Company.aspx.cs">
+      <DependentUpon>Company.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Company.aspx.designer.cs">
+      <DependentUpon>Company.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50976</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:55175/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="..\packages\Microsoft.ApplicationInsights.Agent.Intercept.0.17.0\build\Microsoft.ApplicationInsights.Agent.Intercept.targets" Condition="Exists('..\packages\Microsoft.ApplicationInsights.Agent.Intercept.0.17.0\build\Microsoft.ApplicationInsights.Agent.Intercept.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.ApplicationInsights.Agent.Intercept.0.17.0\build\Microsoft.ApplicationInsights.Agent.Intercept.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.ApplicationInsights.Agent.Intercept.0.17.0\build\Microsoft.ApplicationInsights.Agent.Intercept.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
